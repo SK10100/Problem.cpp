@@ -18,7 +18,7 @@ int main() {
     counter++;
     sum = sum + n;
     n++;
-    cout<<counter<<"+"<<n+n/sum<<" ,";
+    //cout<<counter<<"+"<<n+n/sum<<" ,";
     counter++;
   }
   cout<<" Sum of Harmonic series is :"<<sum<<endl;
