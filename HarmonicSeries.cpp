@@ -13,12 +13,9 @@ int main() {
   cin >> maxDenominator;
   int n = 1;
   while(n<=maxDenominator){
-    //counter=n+n/maxDenominator;
-    //cout<<counter<<"+"<<n/maxDenominator<<" ,";
     counter++;
     sum = sum + n;
     n++;
-    //cout<<counter<<"+"<<n+n/sum<<" ,";
     counter++;
   }
   cout<<" Sum of Harmonic series is :"<<sum<<endl;
