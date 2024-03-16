@@ -1,4 +1,4 @@
-/*test integer din <climits> header */
+/*test integer in <climits> and <cfloat> header */
 #include<iostream>
 #include<climits>
 #include<cfloat>
