@@ -3,7 +3,9 @@
 using namespace std;
 int main(){
   char gender='m';
-  bool isMarried=true;
+  bool isMarried;
+  cout<<"Enter the 1 if is married either 0: "<<endl;
+  cin>>isMarried;
   unsigned short numChildren=8;
   short YearofBirth=1945;
   unsigned int salary=88000;
@@ -16,6 +18,7 @@ int main(){
   cout<<"Salary: "<<salary<<endl;
   cout<<"Weight: "<<weight<<endl;
   cout<<"GPA; "<<gpa<<endl;
+  
   return 0;
 
 }
